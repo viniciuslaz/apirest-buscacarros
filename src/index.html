@@ -1,0 +1,231 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Consulta carros">
+    <meta name="generator" content="Jekyll v3.8.5">
+    <title>Buscar Carros</title>
+	<link href="https://getbootstrap.com/docs/4.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+    <link href="https://getbootstrap.com/docs/4.3/examples/checkout/form-validation.css" rel="stylesheet">
+  </head>
+
+  <body class="bg-light">
+    <div class="container">
+	  	<div class="py-5 text-center">
+	    	<img class="d-block mx-auto mb-4" src="../imagens/logo.png" alt="" width="72" height="72">
+	   		<h2>Buscar carro</h2>
+	   		<h6>Selecione um ou mais campos</h6>
+	  	</div>
+
+		<hr class="mb-4">
+
+		<div class="row">
+		    <div class="col-md-12">
+		      	<form class="needs-validation" novalidate>
+			        <div class="row">
+			    	    <div class="col-md-3 mb-3">
+				            <label for="marca">Marca</label>
+				            <select class="custom-select d-block w-100" id="marca" required>
+				        	    <option value="">Qualquer</option>
+				            	<option value="1">Chevrolet</option>
+				            	<option value="2">Fiat</option>
+				            	<option value="3">Ford</option>
+				            	<option value="4">Volkswagen</option>
+				            	<option value="5">Renault</option>
+				            	<option value="6">Hyundai</option>
+				            </select>
+			          	</div>
+
+			         	<div class="col-md-3 mb-3">
+			            	<label for="nome">Nome</label>
+			            	<select class="custom-select d-block w-100" id="nome" required>
+				            	<option value="">Qualquer</option>
+				            	<option value="" disabled class="h5">Chevrolet</option>
+				            	<option value="Cruze">Cruze</option>
+				            	<option value="Onix">Onix</option>
+				            	<option value="Spin">Spin</option>
+				            	<option value="Astra">Astra</option>
+				            	<option value="Celta">Celta</option>
+				            	<option value="Vectra">Vectra</option>
+				            	<option value="Classic">Classic</option>
+				            	<option value="Chevette">Chevette</option>
+				            	<option value="Kadett">Kadett</option>
+				            	<option value="Omega">Omega</option>
+
+				            	<option value="" disabled class="h5">Fiat</option>
+				            	<option value="Argo">Argo</option>
+				            	<option value="Palio">Palio</option>
+
+				            	<option value="" disabled class="h5">Ford</option>
+				            	<option value="Fusion">Fusion</option>
+				            	<option value="F-250">F-250</option>
+				            	<option value="Mustang">Mustang</option>
+				            	<option value="Ranger">Ranger</option>
+				            	<option value="EDGE">EDGE</option>
+				            	<option value="Focus">Focus</option>
+				            	<option value="EcoSport">EcoSport</option>
+				            	<option value="NewFiestaHatch">New Fiesta Hatch</option>
+				            	<option value="FusionH">Fusion H</option>
+
+				            	<option value="" disabled class="h5">Volkswagen</option>
+				            	<option value="Amarok">Amarok</option>
+				            	<option value="Gol">Gol</option>
+				            	<option value="Golf">Golf</option>
+				            	<option value="Parati">Parati</option>
+				            	<option value="Passat">Passat</option>
+				            	<option value="Saveiro">Saveiro</option>
+				            	<option value="Jetta">Jetta</option>
+				            	<option value="CC">CC</option>
+				            	<option value="Polo">Polo</option>
+				            	<option value="EOS">EOS</option>
+
+				            	<option value="" disabled class="h5">Renault</option>
+				            	<option value="Clio">Clio</option>
+				            	<option value="Logan">Logan</option>
+
+				            	<option value="" disabled class="h5">Hyundai</option>
+				            	<option value="HB20">HB20</option>
+				            	<option value="i30">i30</option>
+
+				             	<option value="" disabled class="h5">Nissan</option>
+				              	<option value="GTR">GTR</option>
+				              	<option value="Leaf">Leaf</option>
+				            </select>
+			          	</div>
+
+				        <div class="col-md-3 mb-3">
+				            <label for="ano">Ano</label>
+				            <select class="custom-select d-block w-100" id="ano" required>
+				              	<option value="">Qualquer</option>
+				              	<option value="2019">2019</option>
+				              	<option value="2018">2018</option>
+				              	<option value="2017">2017</option>
+				              	<option value="2016">2016</option>
+				              	<option value="2015">2015</option>
+				              	<option value="2010">2010</option>
+				              	<option value="2009">2009</option>
+				              	<option value="2006">2006</option>
+				              	<option value="2002">2002</option>
+				              	<option value="2001">2001</option>
+				              	<option value="1996">1996</option>
+				              	<option value="1985">1985</option>
+				            </select>
+				        </div>
+
+				        <div class="col-md-3 mb-3">
+				            <label for="motor">Motor</label>
+				            <select class="custom-select d-block w-100" id="motor" required>
+				              	<option value="">Qualquer</option>
+				              	<option value="1.0">1.0</option>
+				              	<option value="1.4">1.4</option>
+				              	<option value="1.6">1.6</option>
+				              	<option value="1.8">1.8</option>
+				              	<option value="2.0">2.0</option>
+				              	<option value="2.2">2.2</option> 
+				              	<option value="2.7">2.7</option>  	
+				              	<option value="3.6">3.6</option>
+				              	<option value="3.8">3.8</option>
+				              	<option value="3.9">3.9</option>
+				              	<option value="5.0">5.0</option>
+				              	<option value="Eletrico">Elétrico</option>
+				            </select>
+				        </div>
+		        	</div>
+		        	<hr class="mb-4">
+		        	<button class="btn btn-primary btn-lg btn-block mb-4" onclick="busca()" type="submit" id="buscar">Buscar</button>
+		      	</form>
+		    </div>
+		</div>
+  		<p id="resultado"></p>
+	</div>
+
+	<script>
+		function busca() { 
+			var url = "http://localhost:3000/carros/";//Sua URL
+			var result = 0;
+
+			var marca = document.getElementById('marca').value;
+			var nome = document.getElementById('nome').value;
+			var ano = document.getElementById('ano').value;
+			var motor = document.getElementById('motor').value;
+			verificaMarca();
+
+			function verificaMarca(){
+				if(marca){
+					url += "?marca_id="+marca;
+				}
+
+				verificaNome();
+			}
+			function verificaNome(){
+				if(nome){
+					if(url.match(/marca/)){
+						url += "&nome="+nome;
+					}else{
+						url += "?nome="+nome; 
+					}
+				}
+				verificaAno();
+			}
+			function verificaAno(){
+				if(ano){
+					if(url.match(/nome/)){
+						url += "&ano="+ano;
+					}else{
+						url += "?ano="+ano; 
+					}
+				}
+				verificaMotor();
+			}
+			function verificaMotor(){
+				if(motor){
+					if(url.match(/ano/)){
+						url += "&motor="+motor;
+					}else{
+						url += "?motor="+motor; 
+					}
+				}
+			}
+
+			var xhttp = new XMLHttpRequest();
+			xhttp.open("GET", url, false);
+			xhttp.send();
+
+      		var output;
+			if(xhttp.responseText == '[]'){
+				alert("Nenhum resultado encontrado");
+				window.location.reload()
+			}
+      		var jsonData = JSON.parse(xhttp.responseText);
+      		$("#resultado").html("");
+      		for(var i in jsonData){
+        		console.log(jsonData[i].nome);
+		        $("#resultado").append("<table class='table table-dark mb-4'><thead><tr><th scope='col'>'Nome'</th><th scope='col'>'Modelo'</th><th scope='col'>'Motor'</th></tr></thead><tbody><tr><td id='nomeCarro'>"+ jsonData[i].nome +"</td><td id='modeloCarro'>"+ jsonData[i].modelo +"</td><td id='motorCarro'>"+ jsonData[i].motor +"</td></tr></tbody></table>");
+		    }
+		}
+		</script>
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+		<script>window.jQuery || document.write('<script src="/docs/4.3/assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+  		<script src="https://getbootstrap.com/docs/4.3/dist/js/bootstrap.bundle.min.js"></script>
+		<script src="https://getbootstrap.com/docs/4.3/examples/checkout/form-validation.js"></script>
+	</body>
+</html>

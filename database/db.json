@@ -1,0 +1,367 @@
+{
+  "carros": [
+    {
+      "id": 4001,
+      "nome": "Onix",
+      "modelo": "LS",
+      "motor": "1.0",
+      "ano": 2015,
+      "fipe": "32.895",
+      "marca_id": 1
+    },
+    {
+      "id": 4002,
+      "nome": "Cruze",
+      "modelo": "LT",
+      "motor": "1.8",
+      "ano": 2015,
+      "fipe": "52.957",
+      "marca_id": 1
+    },
+    {
+      "id": 4003,
+      "nome": "Spin",
+      "modelo": "Activ",
+      "motor": "1.8",
+      "ano": 2019,
+      "fipe": "N/D",
+      "marca_id": 1
+    },
+    {
+      "id": 4004,
+      "nome": "Astra",
+      "modelo": "Sport",
+      "motor": "2.0",
+      "ano": 2002,
+      "fipe": "11.706",
+      "marca_id": 1
+    },
+    {
+      "id": 4005,
+      "nome": "Celta",
+      "modelo": "Super",
+      "motor": "1.0",
+      "ano": 2002,
+      "fipe": "10.455",
+      "marca_id": 1
+    },
+    {
+      "id": 4006,
+      "nome": "Vectra",
+      "modelo": "GLS",
+      "motor": "2.2",
+      "ano": 2001,
+      "fipe": "15.053",
+      "marca_id": 1
+    },
+    {
+      "id": 4007,
+      "nome": "Classic",
+      "modelo": "Super",
+      "motor": "1.0",
+      "ano": 2009,
+      "fipe": "17.172",
+      "marca_id": 1
+    },
+    {
+      "id": 4008,
+      "nome": "Chevette",
+      "modelo": "SL",
+      "motor": "1.6",
+      "ano": 1985,
+      "fipe": "N/D",
+      "marca_id": 1
+    },
+    {
+      "id": 4009,
+      "nome": "Kadett",
+      "modelo": "GL",
+      "motor": "2.0",
+      "ano": 1996,
+      "fipe": "N/D",
+      "marca_id": 1
+    },
+    {
+      "id": 4010,
+      "nome": "Omega",
+      "modelo": "CD",
+      "motor": "3.6",
+      "ano": 2006,
+      "fipe": "28.725",
+      "marca_id": 1
+    },
+    {
+      "id": 5001,
+      "nome": "Argo",
+      "modelo": "Firefly",
+      "motor": "1.0",
+      "ano": 2019,
+      "fipe": "N/D",
+      "marca_id": 2
+    },
+    {
+      "id": 5002,
+      "nome": "Palio",
+      "modelo": "Fira",
+      "motor": "1.0",
+      "ano": 2016,
+      "fipe": "26.191",
+      "marca_id": 2
+    },
+    {
+      "id": 6001,
+      "nome": "Fusion",
+      "modelo": "EcoBoost",
+      "motor": "2.0",
+      "ano": 2018,
+      "fipe": "107.010",
+      "marca_id": 3
+    },
+    {
+      "id": 6002,
+      "nome": "F-250",
+      "modelo": "XL",
+      "motor": "3.9",
+      "ano": 2010,
+      "fipe": "71.800",
+      "marca_id": 3
+    },
+    {
+      "id": 6003,
+      "nome": "Mustang",
+      "modelo": "GT Premium",
+      "motor": "5.0",
+      "ano": 2019,
+      "fipe": "300.000",
+      "marca_id": 3
+    },
+    {
+      "id": 6004,
+      "nome": "Ranger",
+      "modelo": "TD XL CS",
+      "motor": "2.2",
+      "ano": 2019,
+      "fipe": "125.000",
+      "marca_id": 3
+    },
+    {
+      "id": 6005,
+      "nome": "EDGE",
+      "modelo": "ST 4WD",
+      "motor": "2.7",
+      "ano": 2019,
+      "fipe": "125.000",
+      "marca_id": 3
+    },
+    {
+      "id": 6006,
+      "nome": "Focus",
+      "modelo": "Fastback SE PowerShift",
+      "motor": "2.0",
+      "ano": 2019,
+      "fipe": "76.500",
+      "marca_id": 3
+    },
+    {
+      "id": 6007,
+      "nome": "EcoSport",
+      "modelo": "N/D",
+      "motor": "2.0",
+      "ano": 2020,
+      "fipe": "69.990",
+      "marca_id": 3
+    },
+    {
+      "id": 6008,
+      "nome": "Focus",
+      "modelo": "TitaniumPlusPowerShift",
+      "motor": "2.0",
+      "ano": 2019,
+      "fipe": "78.100",
+      "marca_id": 3
+    },
+    {
+      "id": 6009,
+      "nome": "FusionH",
+      "modelo": "HybridTitanium",
+      "motor": "2.0",
+      "ano": 2019,
+      "fipe": "149.900",
+      "marca_id": 3
+    },
+    {
+      "id": 7001,
+      "nome": "Amarok",
+      "modelo": "SE",
+      "motor": "2.0",
+      "ano": 2019,
+      "fipe": "N/D",
+      "marca_id": 4
+    },
+    {
+      "id": 7002,
+      "nome": "Gol",
+      "modelo": "MPI",
+      "motor": "1.0",
+      "ano": 2017,
+      "fipe": "N/D",
+      "marca_id": 4
+    },
+    {
+      "id": 7003,
+      "nome": "Golf",
+      "modelo": "GTI",
+      "motor": "2.0",
+      "ano": 2019,
+      "fipe": "N/D",
+      "marca_id": 4
+    },
+    {
+      "id": 7004,
+      "nome": "Parati",
+      "modelo": "nd",
+      "motor": "1.0",
+      "ano": 2002,
+      "fipe": "12.165",
+      "marca_id": 4
+    },
+    {
+      "id": 7005,
+      "nome": "Passat",
+      "modelo": "Turbo",
+      "motor": "1.8",
+      "ano": 2001,
+      "fipe": "17.110",
+      "marca_id": 4
+    },
+    {
+      "id": 7006,
+      "nome": "Saveiro",
+      "modelo": "GL",
+      "motor": "1.8",
+      "ano": 1998,
+      "fipe": "13.563",
+      "marca_id": 4
+    },
+    {
+      "id": 7007,
+      "nome": "Jetta",
+      "modelo": "250 TSI",
+      "motor": "1.4",
+      "ano": 2019,
+      "fipe": "99.990",
+      "marca_id": 4
+    },
+    {
+      "id": 7008,
+      "nome": "CC",
+      "modelo": "TSI",
+      "motor": "2.0",
+      "ano": 2016,
+      "fipe": "116.355",
+      "marca_id": 4
+    },
+    {
+      "id": 7009,
+      "nome": "Polo",
+      "modelo": "ComfortlineTSI",
+      "motor": "1.0",
+      "ano": 2020,
+      "fipe": "71.560",
+      "marca_id": 4
+    },
+    {
+      "id": 7010,
+      "nome": "EOS",
+      "modelo": "TurboFSI",
+      "motor": "2.0",
+      "ano": 2011,
+      "fipe": "84.122",
+      "marca_id": 4
+    }, 
+    {
+      "id": 8001,
+      "nome": "Clio",
+      "modelo": "Expression",
+      "motor": "1.0",
+      "ano": 2016,
+      "fipe": "24.079",
+      "marca_id": 5
+    },
+    {
+      "id": 8002,
+      "nome": "Logan",
+      "modelo": "Expression",
+      "motor": "1.0",
+      "ano": 2019,
+      "fipe": "40.778",
+      "marca_id": 5
+    },
+    {
+      "id": 9001,
+      "nome": "HB20",
+      "modelo": "Unique",
+      "motor": "1.0",
+      "ano": 2019,
+      "fipe": "40.029",
+      "marca_id": 6
+    },
+    {
+      "id": 9002,
+      "nome": "i30",
+      "modelo": "MPI",
+      "motor": "1.8",
+      "ano": 2016,
+      "fipe": "64.341",
+      "marca_id": 6
+    },
+    {
+      "id": 10001,
+      "nome": "GTR",
+      "modelo": "V6",
+      "motor": "3.8",
+      "ano": 2017,
+      "fipe": "900.000",
+      "marca_id": 7
+    },
+    {
+      "id": 10002,
+      "nome": "Leaf",
+      "modelo": "40kWh",
+      "motor": "Eletrico",
+      "ano": 2020,
+      "fipe": "178.400",
+      "marca_id": 7
+    }
+  ],
+  "marca": [
+    {
+      	"id": 1,
+      	"nome": "chevrolet"
+    },
+    {
+      	"id": 2,
+      	"nome": "fiat"
+    },
+    {
+    	"id": 3,
+    	"nome": "ford"
+    },
+    {
+    	"id": 4,
+    	"nome": "volkswagen"
+    },
+    {
+      "id": 5,
+      "nome": "renault"
+    },
+    {
+      "id": 6,
+      "nome": "hyundai"
+    },
+    {
+      "id": 7,
+      "nome": "Nissan"
+    }
+  ]
+}
